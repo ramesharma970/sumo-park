@@ -1,0 +1,24 @@
+@import '../variables/Variables.scss';
+
+
+
+.main-page{
+    background: $mainColor;
+
+    button{
+        @include buttonStyle($backColor,$textSize);
+    }
+}
+.main-page h1{
+  
+      color: $textColor;
+  
+}
+button{
+    @include buttonStyle(purple,$titleSize);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}

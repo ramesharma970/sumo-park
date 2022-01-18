@@ -1,0 +1,29 @@
+@import '../variables/Variables.scss';
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color:$backColor;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    a{
+        font-size: $fontSize;
+        text-decoration: none;  
+        color:$textColor;
+        font-family: $fontFamily;
+        margin: 0 10px;
+    
+    }
+}
+
+
+.navbar .links{
+    margin-right: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}

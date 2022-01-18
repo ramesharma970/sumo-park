@@ -1,0 +1,23 @@
+//colors
+$backColor:blue;
+$textColor: white;
+$mainColor:red;
+
+//font-size
+$fontSize:20px;
+$titleSize:25px;
+$textSize:18px;
+
+//font-family
+$fontFamily:Arial, Helvetica, sans-serif;
+
+//button-style
+@mixin buttonStyle($bColor, $fontSize){
+    width: 100px;
+    height: 30px;
+    border:none;
+    font-size: $fontSize;
+    padding: 5px;
+    cursor: pointer;
+    background: $bColor;
+}

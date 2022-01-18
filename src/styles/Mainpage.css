@@ -1,0 +1,33 @@
+.main-page {
+  background: red;
+}
+
+.main-page button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  background: blue;
+}
+
+.main-page h1 {
+  color: white;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+  background: purple;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=Mainpage.css.map */
