@@ -1,15 +1,25 @@
 @import '../variables/Variables.scss';
 
 
-
 .main-page{
     background: $mainColor;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
 
     button{
         @include buttonStyle($backColor,$textSize);
     }
 }
-.main-page h1{
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-page .main-info h1{
   
       color: $textColor;
   

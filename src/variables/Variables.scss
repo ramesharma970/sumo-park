@@ -1,7 +1,7 @@
 //colors
 $backColor:blue;
 $textColor: white;
-$mainColor:red;
+$mainColor:#9cd89f;
 
 //font-size
 $fontSize:20px;
@@ -20,4 +20,5 @@ $fontFamily:Arial, Helvetica, sans-serif;
     padding: 5px;
     cursor: pointer;
     background: $bColor;
+    padding:3px 5px;
 }
